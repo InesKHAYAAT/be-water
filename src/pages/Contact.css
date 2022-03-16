@@ -12,14 +12,19 @@
   text-align: left;
   margin-top: 50px;
   margin-bottom: 30px;
-  padding-left: 180px;
-  padding-right: 180px;
+  padding-left: 20%;
+  padding-right: 20%;
   line-height: 50px;
   font-family: Tahoma;
 }
 
 .button {
   text-align: center;
-  color: #fff;
-  background-color: rgb(214, 214, 214);
+}
+
+  .button1 {
+  border-radius: 10px;
+  color: #283C70;
+  border: none;
+  font-weight: bold;
 }

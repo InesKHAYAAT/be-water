@@ -30,8 +30,8 @@ const Contact: React.FC = () => {
             <div>Message</div>
             <textarea name="message"></textarea>
           </div>
-        
-          <input type="button" value="Envoyer" />
+
+          <input className='button1' type="button" value="Entrer" />
           {/* <div>Envoyer</div> */}
 
         </form>

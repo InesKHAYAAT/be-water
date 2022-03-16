@@ -26,7 +26,16 @@
   margin-top: 1px;
   font-size: 11px;
   font-style: small;
-  padding: 0% 5% 0% 5%;
+  padding: 0% 5% 3% 5%;
+  text-align : justify; 
+}
+.Trait0{
+  border-top-style: solid;
+  border-top-width: 1px;
+  justify-content: center;
+  color: #ffffff;
+  margin: 1% 5% 0% 5%; 
+
 }
 .QUESTION2{
   color: #ffffff;
@@ -35,7 +44,7 @@
   margin-top: 12px;
   font-size: 18px;
   font-style: small;
-  padding: 3% 5% 0% 5%; 
+  padding: 1% 5% 0% 5%; 
 }
 .reponse2{
   color: #AA9F9F;
@@ -44,7 +53,15 @@
   margin-top: 1px;
   font-size: 11px;
   font-style: small;
-  padding: 0% 5% 0% 5%;
+  padding: 0% 5% 3% 5%;
+  text-align : justify; 
+}
+.Trait2{
+  border-top-style: solid;
+  border-top-width: 1px;
+  justify-content: center;
+  color: #ffffff;
+  margin: 1% 5% 0% 5%; 
 }
 .QUESTION3{
   color: #ffffff;
@@ -53,7 +70,7 @@
   margin-top: 12px;
   font-size: 18px;
   font-style: small;
-  padding: 3% 5% 0% 5%; 
+  padding: 1% 5% 0% 5%; 
 }
 .reponse3{
   color: #AA9F9F;
@@ -62,7 +79,15 @@
   margin-top: 1px;
   font-size: 11px;
   font-style: small;
-  padding: 0% 5% 0% 5%;
+  padding: 0% 5% 3% 5%;
+  text-align : justify; 
+}
+.Trait3{
+  border-top-style: solid;
+  border-top-width: 1px;
+  justify-content: center;
+  color: #ffffff;
+  margin: 1% 5% 0% 5%; 
 }
 .QUESTION4{
   color: #ffffff;
@@ -71,7 +96,7 @@
   margin-top: 12px;
   font-size: 18px;
   font-style: small;
-  padding: 3% 5% 0% 5%;
+  padding: 2% 5% 0% 5%;
 }
 .reponse4{
   color: #AA9F9F;
@@ -80,7 +105,15 @@
   margin-top: 1px;
   font-size: 11px;
   font-style: small;
-  padding: 0% 5% 0% 5%;
+  padding: 0% 5% 3% 5%;
+  text-align : justify; 
+}
+.Trait4{
+  border-top-style: solid;
+  border-top-width: 1px;
+  justify-content: center;
+  color: #ffffff;
+  margin: 1% 5% 0% 5%; 
 }
 .QUESTION5{
   color: #ffffff;
@@ -89,7 +122,7 @@
   margin-top: 12px;
   font-size: 18px;
   font-style: small;
-  padding: 3% 5% 0% 5%;
+  padding: 2% 5% 0% 5%;
 }
 .reponse5{
   color: #AA9F9F;
@@ -98,7 +131,15 @@
   margin-top: 1px;
   font-size: 11px;
   font-style: small;
-  padding: 0% 5% 0% 5%;
+  padding: 0% 5% 3% 5%;
+  text-align : justify; 
+}
+.Trait5{
+  border-top-style: solid;
+  border-top-width: 1px;
+  justify-content: center;
+  color: #ffffff;
+  margin: 1% 5% 0% 5%; 
 }
 .QUESTION6{
   color: #ffffff;
@@ -107,7 +148,7 @@
   margin-top: 12px;
   font-size: 18px;
   font-style: small;
-  padding: 3% 5% 0% 5%;
+  padding: 2% 5% 0% 5%;
 }
 .reponse6{
   color: #AA9F9F;
@@ -117,4 +158,5 @@
   font-size: 11px;
   font-style: small;
   padding: 0% 5% 0% 5%;
+  text-align : justify; 
 }

@@ -1,9 +1,6 @@
 import {
   IonContent,
-  IonHeader,
   IonPage,
-  IonTitle,
-  IonToolbar,
 } from "@ionic/react";
 import { MapContainer, TileLayer, Marker, Popup, Polygon } from "react-leaflet";
 import L from "leaflet";
@@ -23,11 +20,6 @@ L.Marker.prototype.options.icon = DefaultIcon;
 const Explorer: React.FC = () => {
   return (
     <IonPage className="safe-area">
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>CardExamples</IonTitle>
-        </IonToolbar>
-      </IonHeader>
       <IonContent className="contenter">
         <MapContainer
           className="maps"
