@@ -1,0 +1,6 @@
+.PageAccueil {
+    --ion-background-color: #283c70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

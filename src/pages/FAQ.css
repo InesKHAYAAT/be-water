@@ -1,0 +1,120 @@
+.contenter{
+    --ion-background-color: #283C70;
+}
+.Titre{
+  color: #ffffff;
+  justify-content: flex-start;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 32px;
+  font-style: medium;
+  padding: 1% 2%;
+}
+.QUESTION1{ 
+  color: #ffffff;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 12px;
+  font-size: 18px;
+  font-style: small;
+  padding: 3% 5% 0% 5%; 
+}
+.reponse1{
+  color: #AA9F9F;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 1px;
+  font-size: 11px;
+  font-style: small;
+  padding: 0% 5% 0% 5%;
+}
+.QUESTION2{
+  color: #ffffff;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 12px;
+  font-size: 18px;
+  font-style: small;
+  padding: 3% 5% 0% 5%; 
+}
+.reponse2{
+  color: #AA9F9F;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 1px;
+  font-size: 11px;
+  font-style: small;
+  padding: 0% 5% 0% 5%;
+}
+.QUESTION3{
+  color: #ffffff;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 12px;
+  font-size: 18px;
+  font-style: small;
+  padding: 3% 5% 0% 5%; 
+}
+.reponse3{
+  color: #AA9F9F;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 1px;
+  font-size: 11px;
+  font-style: small;
+  padding: 0% 5% 0% 5%;
+}
+.QUESTION4{
+  color: #ffffff;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 12px;
+  font-size: 18px;
+  font-style: small;
+  padding: 3% 5% 0% 5%;
+}
+.reponse4{
+  color: #AA9F9F;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 1px;
+  font-size: 11px;
+  font-style: small;
+  padding: 0% 5% 0% 5%;
+}
+.QUESTION5{
+  color: #ffffff;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 12px;
+  font-size: 18px;
+  font-style: small;
+  padding: 3% 5% 0% 5%;
+}
+.reponse5{
+  color: #AA9F9F;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 1px;
+  font-size: 11px;
+  font-style: small;
+  padding: 0% 5% 0% 5%;
+}
+.QUESTION6{
+  color: #ffffff;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 12px;
+  font-size: 18px;
+  font-style: small;
+  padding: 3% 5% 0% 5%;
+}
+.reponse6{
+  color: #AA9F9F;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 1px;
+  font-size: 11px;
+  font-style: small;
+  padding: 0% 5% 0% 5%;
+}

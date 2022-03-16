@@ -1,0 +1,27 @@
+.PageAccueil {
+  --ion-background-color: #283C70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Titre {
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 48px;
+  font-style: normal;
+}
+.Trait {
+    border-top: 3px solid rgb(255, 255, 255);
+    width: 300px;
+    margin-inline: auto;
+    justify-content: center;
+    text-align: center;
+}
+.Slogan {
+  color: #ffffff;
+  justify-content: center;
+  margin-top: 15px;
+  text-align: center;
+}

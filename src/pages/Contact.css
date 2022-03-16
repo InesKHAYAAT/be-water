@@ -1,0 +1,25 @@
+.contenter {
+  --ion-background-color: #283C70;
+}
+
+.blocs {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  justify-content: center;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-left: 180px;
+  padding-right: 180px;
+  line-height: 50px;
+  font-family: Tahoma;
+}
+
+.button {
+  text-align: center;
+  color: #fff;
+  background-color: rgb(214, 214, 214);
+}
