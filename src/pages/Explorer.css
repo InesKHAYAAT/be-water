@@ -1,7 +1,14 @@
 .contenter {
-  --ion-background-color: #283c70;
+  --ion-background-color: rgba(40, 60, 112, 0.910);
 }
 .maps {
   width: 100wh;
   height: 100vh;
+}
+
+.fav-button {
+  position: absolute; 
+  top: 85vh;
+  z-index: 10000;
+  left: 80vw;
 }

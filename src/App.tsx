@@ -45,51 +45,53 @@ import "./theme/Comfortaa.css";
 
 setupIonicReact();
 
-const App: React.FC = () => (
-  <IonApp>
-    <IonReactRouter>
-      <IonTabs>
-        <IonRouterOutlet>
-          <Route exact path="/accueil">
-            <Accueil />
+const App: React.FC = () => {
+  return (
+    <IonApp>
+      <IonReactRouter>
+        <IonTabs>
+          <IonRouterOutlet>
+            <Route exact path="/accueil">
+              <Accueil />
             </Route>
-          <Route exact path="/Explorer">
-            <Explorer />
-          </Route>
-          <Route exact path="/FAQ">
-            <FAQ />
-          </Route>
-          <Route path="/Contact">
-            <Contact />
-          </Route>
-          <Route path="/Favoris">
-            <Favoris />
-          </Route>
-          <Route exact path="/">
-            <Redirect to="/accueil" />
-          </Route>          
-        </IonRouterOutlet>
-        <IonTabBar slot="bottom">
-          <IonTabButton tab="Explorer" href="/Explorer">
-            <IonIcon icon={earthOutline} />
-            <IonLabel> EXPLORER </IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="FAQ" href="/FAQ">
-            <IonIcon icon={helpOutline} />
-            <IonLabel> FAQ </IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="Contact" href="/Contact">
-            <IonIcon icon={chatbubblesOutline} />
-            <IonLabel> CONTACT </IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="Favoris" href="/Favoris">
-            <IonIcon icon={heartOutline} />
-            <IonLabel> FAVORIS </IonLabel>
-          </IonTabButton>
-        </IonTabBar>
-      </IonTabs>
-    </IonReactRouter>
-  </IonApp>
-);
+            <Route exact path="/Explorer">
+              <Explorer />
+            </Route>
+            <Route exact path="/FAQ">
+              <FAQ />
+            </Route>
+            <Route path="/Contact">
+              <Contact />
+            </Route>
+            <Route path="/Favoris">
+              <Favoris />
+            </Route>
+            <Route exact path="/">
+              <Redirect to="/accueil" />
+            </Route>
+          </IonRouterOutlet>
+          <IonTabBar slot="bottom">
+            <IonTabButton tab="Explorer" href="/Explorer">
+              <IonIcon icon={earthOutline} />
+              <IonLabel> EXPLORER </IonLabel>
+            </IonTabButton>
+            <IonTabButton tab="FAQ" href="/FAQ">
+              <IonIcon icon={helpOutline} />
+              <IonLabel> FAQ </IonLabel>
+            </IonTabButton>
+            <IonTabButton tab="Contact" href="/Contact">
+              <IonIcon icon={chatbubblesOutline} />
+              <IonLabel> CONTACT </IonLabel>
+            </IonTabButton>
+            <IonTabButton tab="Favoris" href="/Favoris">
+              <IonIcon icon={heartOutline} />
+              <IonLabel> FAVORIS </IonLabel>
+            </IonTabButton>
+          </IonTabBar>
+        </IonTabs>
+      </IonReactRouter>
+    </IonApp>
+  );
+};
 
 export default App;

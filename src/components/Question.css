@@ -1,0 +1,32 @@
+.QUESTION2 {
+  color: #ffffff;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 12px;
+  font-size: 18px;
+  font-style: small;
+  padding: 1% 5% 0% 5%;
+}
+.reponse2 {
+  color: #aa9f9f;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 1px;
+  font-size: 13px;
+  font-style: small;
+  padding: 0% 5% 1% 5%;
+  text-align: justify;
+}
+.box-for-button2 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0% 5% 0% 0%;
+  font-size: 10px;
+}
+.Trait2 {
+  border-top-style: solid;
+  border-top-width: 1px;
+  justify-content: center;
+  color: #ffffff;
+  margin: 1% 5% 0% 5%;
+}

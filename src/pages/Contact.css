@@ -1,11 +1,11 @@
 .contenter {
-  --ion-background-color: #283C70;
+  --ion-background-color: rgba(40, 60, 112, 0.910);
 }
 
 .blocs {
   display: flex;
   flex-direction: column;
-  color: #ffffff;
+  color: #black;
   font-size: 20px;
   font-style: normal;
   justify-content: center;
@@ -23,8 +23,8 @@
 }
 
   .button1 {
-  border-radius: 10px;
-  color: #283C70;
+  border-radius: 30px;
+  color: #959eb8;
   border: none;
   font-weight: bold;
 }

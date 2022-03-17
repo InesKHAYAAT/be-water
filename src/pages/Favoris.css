@@ -1,6 +1,21 @@
-.PageAccueil {
-    --ion-background-color: #283c70;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.Favoris {
+  --ion-background-color: rgba(40, 60, 112, 0.910);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.liste {
+  background-color: #000000;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 50px;
+  font-family: Tahoma;
+}
+
+.notification {
+  font-size: 1rem !important;
+  white-space: normal !important;
+  word-wrap: break-word;
+}
