@@ -75,6 +75,5 @@
     "@types/leaflet": "^1.7.9",
     "gh-pages": "^3.2.3"
   },
-  "homepage": "https://ineskhayaat.github.io/be-water/",
   "description": "An Ionic project"
 }
