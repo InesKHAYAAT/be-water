@@ -73,7 +73,7 @@ const Explorer: React.FC = () => {
               const favs: Array<string> = JSON.parse(
                 localStorage.getItem("favs") || "[]"
               );
-              if (favs.findIndex((f) => f === name) !== -1) favs.push(name);
+              favs.push(name);
               localStorage.setItem("favs", JSON.stringify(favs));
             };
 
@@ -93,7 +93,6 @@ const Explorer: React.FC = () => {
                 }>;
               }
             ).features.forEach((country) => {
-              console.log(country.properties.ADMIN);
               if (
                 country.geometry.type === "Polygon" &&
                 positions &&
