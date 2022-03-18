@@ -8,7 +8,7 @@
 
 .fav-button {
   position: absolute; 
-  top: 85vh;
+  top: 70vh;
   z-index: 10000;
   left: 80vw;
 }
