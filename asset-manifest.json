@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/be-water/static/css/main.4681a104.css",
-    "main.js": "/be-water/static/js/main.e835d924.js",
+    "main.js": "/be-water/static/js/main.6b0cc7f9.js",
     "static/js/3630.24e10b4e.chunk.js": "/be-water/static/js/3630.24e10b4e.chunk.js",
     "static/js/3107.bf9abcf0.chunk.js": "/be-water/static/js/3107.bf9abcf0.chunk.js",
     "static/js/7397.24977126.chunk.js": "/be-water/static/js/7397.24977126.chunk.js",
@@ -87,7 +87,7 @@
     "static/media/Logo1.png": "/be-water/static/media/Logo1.75fd68ad9cf9e93f1c28.png",
     "index.html": "/be-water/index.html",
     "main.4681a104.css.map": "/be-water/static/css/main.4681a104.css.map",
-    "main.e835d924.js.map": "/be-water/static/js/main.e835d924.js.map",
+    "main.6b0cc7f9.js.map": "/be-water/static/js/main.6b0cc7f9.js.map",
     "3630.24e10b4e.chunk.js.map": "/be-water/static/js/3630.24e10b4e.chunk.js.map",
     "3107.bf9abcf0.chunk.js.map": "/be-water/static/js/3107.bf9abcf0.chunk.js.map",
     "7397.24977126.chunk.js.map": "/be-water/static/js/7397.24977126.chunk.js.map",
@@ -168,6 +168,6 @@
   },
   "entrypoints": [
     "static/css/main.4681a104.css",
-    "static/js/main.e835d924.js"
+    "static/js/main.6b0cc7f9.js"
   ]
 }
