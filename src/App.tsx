@@ -48,7 +48,7 @@ setupIonicReact();
 const App: React.FC = () => {
   return (
     <IonApp>
-      <IonReactRouter>
+      <IonReactRouter basename="/be-water">
         <IonTabs>
           <IonRouterOutlet>
             <Route exact path="/accueil">
