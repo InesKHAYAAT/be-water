@@ -144,6 +144,7 @@ const Explorer: React.FC = () => {
             countries as {
               features: Array<{
                 properties: { ADMIN: string };
+                percentage: number;
                 geometry:
                   | {
                       type: "Polygon";
@@ -156,15 +157,16 @@ const Explorer: React.FC = () => {
               }>;
             }
           ).features.map((country) => {
+            const getColorFromPercentage = (percentage: number) => {
+              if (percentage > 75) return "green";
+              if (percentage > 40 && 74 > percentage) return "orange";
+              if (percentage > 0 && 39 > percentage) return "red";
+            };
             if (country.geometry.type === "Polygon") {
               return (
                 <Polygon
-                  color={`#${Math.floor(Math.random() * 16777215).toString(
-                    16
-                  )}`}
-                  fillColor={`#${Math.floor(Math.random() * 16777215).toString(
-                    16
-                  )}`}
+                  color={getColorFromPercentage(country.percentage)}
+                  fillColor={getColorFromPercentage(country.percentage)}
                   key={country.properties.ADMIN}
                   positions={
                     country.geometry.coordinates.map((a) =>
@@ -178,12 +180,8 @@ const Explorer: React.FC = () => {
             } else {
               return (
                 <Polygon
-                  color={`#${Math.floor(Math.random() * 16777215).toString(
-                    16
-                  )}`}
-                  fillColor={`#${Math.floor(Math.random() * 16777215).toString(
-                    16
-                  )}`}
+                  color={getColorFromPercentage(country.percentage)}
+                  fillColor={getColorFromPercentage(country.percentage)}
                   key={country.properties.ADMIN}
                   positions={
                     country.geometry.coordinates.map((a) =>
